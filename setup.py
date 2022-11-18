@@ -10,7 +10,7 @@ setup(name='takeover',
       scripts=['takeover.py'],
       install_requires=[
           'requests',
-          'urllib3',
+          'urllib3<1.27',
       ],
       entry_points={
           'console_scripts': ['takeover=takeover:main'],
