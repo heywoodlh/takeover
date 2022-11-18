@@ -6,5 +6,5 @@ ADD . .
 
 RUN python3 setup.py install
 
-ENTRYPOINT ["python3", "takeover.py"]
+ENTRYPOINT ["python3", "/app/takeover.py"]
 CMD ["-v"]
